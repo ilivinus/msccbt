@@ -2,20 +2,35 @@
   "name": "cbt",
   "version": "0.1.0",
   "private": true,
+  "main": "electron/main.js",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "./",
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "concurrently  \"cross-env BROWSER=none PORT=5000 react-scripts start\" \"wait-on http://localhost:5000 && ELECTRON_START_URL=http://localhost:5000 electron .\"",
+    "electron": "ELECTRON_START_URL=http://localhost:5000 electron . --enable-logging",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "package:all": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=all --icon=src/assets/grease-the-groove-icon",
+    "package:linux": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=linux --icon=src/assets/grease-the-groove-icon",
+    "package:macappstore": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=mas --icon=src/assets/grease-the-groove-icon",
+    "package:osx": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=darwin --icon=src/assets/grease-the-groove-icon",
+    "package:win": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=win32 --icon=src/assets/grease-the-groove-icon",
+    "prod": "npm run build && electron --noDevServer .",
+    "buildel": "webpack --config webpack.build.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^18.0.2",
+    "wait-on": "^6.0.1"
   }
 }

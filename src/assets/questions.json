@@ -1,0 +1,376 @@
+{
+    "exam": "CSC 201 - Introduction to Computer programming",
+    "duration": 3600,
+    "questions": [
+        {
+            "id": 1,
+            "question": "'OS' computer abbreviation usually means?",
+            "options": {
+                "a": "Order of Significance",
+                "b": "Open Software",
+                "c": "Operating System",
+                "d": "Optical Sensor"
+            },
+            "answers": "c"
+        },
+        {
+            "id": 2,
+            "question": "'.MOV' extension refers usually to what kind of file?",
+            "options": {
+                "a": "Image file",
+                "b": "Animation/movie file",
+                "c": "Audio file",
+                "d": "MS Office document"
+            },
+            "answers": "c"
+        },
+        {
+            "id": 3,
+            "question": "What difference does the 5th generation computer have from other generation computers?",
+            "options": {
+                "a": "Technological advancement",
+                "b": "Scientific code",
+                "c": "Object Oriented Programming",
+                "d": "All of the above",
+                "e": "None of the above"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 4,
+            "question": "Which of the following computer language is used for artificial intelligence?",
+            "options": {
+                "a": "FORTRAN",
+                "b": "PROLOG",
+                "c": "C",
+                "d": "COBOL",
+                "e": "None of the above"
+            },
+            "answers": "b"
+        },
+        {
+            "id": 5,
+            "question": "A computer assisted method for the recording and analyzing of existing or hypothetical systems is",
+            "options": {
+                "a": "Data transmission",
+                "b": "Data flow",
+                "c": "Data capture",
+                "d": "Data processing",
+                "e": "None of the above"
+            },
+            "answers": "b"
+        },
+        {
+            "id": 6,
+            "question": "The access method used for cassette tape is",
+            "options": {
+                "a": "Direct",
+                "b": "Random",
+                "c": "Sequential",
+                "d": "All of the above",
+                "e": "None of the above"
+            },
+            "answers": "c"
+        },
+        {
+            "id": 7,
+            "question": "The arranging of data in a logical sequence is called:",
+            "options": {
+                "a": "sorting",
+                "b": "classifying",
+                "c": "reproducing",
+                "d": "summarizing",
+                "e": "None of the above"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 8,
+            "question": "Who is the creator of the PASCAL language?",
+            "options": {
+                "a": "Niklaus Wirth",
+                "b": "Dijkstra",
+                "c": "Donald Knuth",
+                "d": "Basic Pascal",
+                "e": "None of the above"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 9,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 10,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 11,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 12,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 13,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 14,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 15,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 16,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 17,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 18,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 19,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 20,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 21,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 22,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 23,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 24,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 25,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 26,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 27,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 28,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 29,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 30,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        },
+        {
+            "id": 31,
+            "question": "Who do you love?",
+            "options": {
+                "a": "Nneka",
+                "b": "Nkechi",
+                "c": "Gwen",
+                "d": "Ifeanyi",
+                "e": "Godess"
+            },
+            "answers": "a"
+        }
+    ]
+}
