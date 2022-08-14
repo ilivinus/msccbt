@@ -82,10 +82,11 @@ ipcMain.on(QUESTEXT, (event, arg) => {
   if (arg.ttsTool === "") {
     return;
   }
-  if (sprocess.pid) {
+
+  if (sprocess && sprocess.pid) {
     sprocess.kill();
   }
-  sprocess = spawn("python3.9", [
+  sprocess = spawn("python3.10.2", [
     path.join(__dirname, "../", "python/google.py"),
     arg.question,
     JSON.stringify(arg.option),
